@@ -47,34 +47,6 @@ Complete endpoints for:
 - Endpoints using raw SQL queries with JOIN and aggregations
 - Optimized queries for complex reports
 
-## 📁 Project Structure
-
-```
-python/
-├── academia_dev/           # Project settings
-│   ├── settings.py        # General settings
-│   ├── urls.py           # Main URLs
-│   └── wsgi.py           # WSGI config
-├── core/                  # Main app
-│   ├── models.py         # Models (Student, Course, Enrollment)
-│   ├── serializers.py    # DRF Serializers
-│   ├── views.py          # Views and ViewSets
-│   ├── admin.py          # Django Admin config
-│   └── urls.py           # App URLs
-├── templates/            # HTML templates
-│   ├── base.html        # Base template
-│   └── core/            # Core templates
-│       ├── dashboard.html
-│       ├── aluno_lista.html
-│       └── aluno_historico.html
-├── Dockerfile           # Docker configuration
-├── docker-compose.yml   # Docker orchestration
-├── requirements.txt     # Python dependencies
-├── meu_database.sql    # Database SQL schema
-├── manage.py           # Django manager
-└── README.md          # This file
-```
-
 ## 🛠️ How to Run the Project
 
 ### Option 1: With Docker (Recommended)
